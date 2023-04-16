@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+main{
+    padding: 150px;
+}
+
+input{
+    width: 120px; height: 50px;
+    font-size: 28px;
+}
+
+main{
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+form{
+    margin: 40px;
+}
+
+h1{
+    font-size: 60PX;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button{
+    background-color: #4CAF50;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+     
+}

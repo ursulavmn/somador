@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SomadorJavascript</title>
+    <link rel="stylesheet" href="somador.css">
+</head>
+<body>
+    <main>
+        <h1> Somador </h1>
+        <form name="form_soma">
+            <input type="text"
+            name="parcela01">
+            <span>+</span>
+            <input type="text"
+            name="parcela02"> 
+            <span>=</span>
+            <input type="text"
+            name="resultado">
+            <input class="button" type="button" value="+" name="somar" onclick="soma();"  >
+        </form>
+        <h1> Subtraindo </h1>
+        <form name="form_subtrair">
+            <input type="text"
+            name="subtraindo">
+            <span> - </span>
+            <input type="text"
+            name="subtraendo"> 
+            <span> = </span>
+            <input type="text"
+            name="diferenca">
+            <input class="button" type="button" value="-" name="Subtrair" onclick="subtrai();" >
+        </form>
+        <h1> Multiplicação </h1>
+        <form name="form_multiplicacao">
+            <input type="text"
+            name="parcela001">
+            <span> * </span>
+            <input type="text"
+            name="parcela002"> 
+            <span> = </span>
+            <input type="text"
+            name="multiplicacao_re">
+            <input class="button" type="button" value="*" name="multiplicar" onclick="multiplicaca();">
+        </form>
+        <h1> Divisão </h1>
+        <form name="form_dividir">
+            <input type="text"
+            name="parcela0001">
+            <span> / </span>
+            <input type="text"
+            name="parcela0002"> 
+            <span> = </span>
+            <input type="text"
+            name="dividir">
+            <input class="button"  type="button" value="/" name="divisão" onclick="dividi();">
+        </form>
+    </main>
+    <script src="somador.js" ></script>
+</body>
+</html>
